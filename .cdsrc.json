@@ -1,0 +1,24 @@
+{
+    "requires": {
+      "[hybrid]": {
+        "uaa": {
+          "binding": {
+            "type": "cf",
+            "apiEndpoint": "https://api.cf.us10-001.hana.ondemand.com",
+            "org": "3157696etrial",
+            "space": "dev",
+            "instance": "user-info-xsuaa",
+            "key": "key",
+            "resolved": false
+          },
+          "kind": "xsuaa",
+          "vcap": {
+            "name": "uaa"
+          }
+        },
+        "auth": {
+          "kind": "jwt-auth"
+        }
+      }
+    }
+  }
